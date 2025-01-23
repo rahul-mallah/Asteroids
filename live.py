@@ -16,4 +16,4 @@ class Live(CircleShape):
         return [a, b, c]
 
     def draw(self, screen):
-        pygame.draw.polygon(screen, "white", self.triangle(), 4)
+        pygame.draw.polygon(screen, "white", self.triangle(), 1)
